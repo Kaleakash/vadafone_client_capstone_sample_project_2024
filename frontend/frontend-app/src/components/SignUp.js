@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function SignUp() {
-let url = "http://54.152.35.14:9090/login/signup"
+let url = "http://54.234.76.118:9090/login/signup"
 let [emailid,setEmailId]=useState("");
 let [password,setPassword]=useState("");
 let [typeofuser,setTypeofUser]=useState("");
